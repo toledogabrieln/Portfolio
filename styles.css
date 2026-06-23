@@ -1,0 +1,55 @@
+/* ===== RESET & BASE ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+font-family: "Segoe UI", sans-serif;
+background: #0d1117;
+color: #c9d1d9;
+}
+/* ===== HEADER ===== */
+.header {
+position: sticky; top: 0;
+background: #161b22;
+padding: 1rem 2rem;
+border-bottom: 1px solid #30363d;
+}
+.nav { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.3rem; font-weight: bold; color: #58a6ff; }
+.nav-links { list-style: none; display: flex; gap: 1.5rem; }
+.nav-links a { color: #c9d1d9; text-decoration: none; }
+.nav-links a:hover { color: #58a6ff; }
+/* ===== HERO ===== */
+.hero {
+text-align: center; padding: 5rem 2rem;
+background: linear-gradient(135deg, #161b22, #0d1117);
+}
+.hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+.highlight { color: #58a6ff; }
+.btn {
+display: inline-block; margin-top: 2rem;
+padding: .75rem 2rem; background: #238636;
+color: #fff; border-radius: 6px; text-decoration: none;
+}
+.btn:hover { background: #2ea043; }
+/* ===== SEÇÕES ===== */
+section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+h2 { font-size: 2rem; color: #58a6ff; margin-bottom: 2rem; }
+/* ===== CARDS DE TECNOLOGIA ===== */
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; }
+.card {
+background: #161b22; border: 1px solid #30363d;
+border-radius: 8px; padding: 1rem 1.5rem;
+text-align: center; min-width: 120px;
+}
+.card span { font-size: 2rem; }
+.card p { margin-top: .5rem; font-size: .9rem; color: #8b949e; }
+/* ===== PROJETO ===== */
+.projeto-card {
+background: #161b22; border: 1px solid #30363d;
+border-radius: 8px; padding: 1.5rem;
+}
+.projeto-card h3 { color: #c9d1d9; margin-bottom: .5rem; }
+.tag {
+display: inline-block; margin: .5rem .25rem 0 0;
+padding: .2rem .6rem; background: #1f6feb;
+border-radius: 20px; font-size: .8rem;
+}
